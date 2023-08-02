@@ -1,0 +1,76 @@
+/* Body styling */
+body {
+    background-color: #f0f0f0; /* Light body background */
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form container */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+  /* Heading styling */
+  .heading {
+    color: #471869; /* Purple color for the heading */
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  
+  /* Description styling */
+  .description {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styling */
+  .subscription-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styling */
+  .subscription-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button styling */
+  .subscription-form .submit-btn {
+    background-color: #471869; /* Purple color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for the button */
+  .subscription-form .submit-btn:hover {
+    background-color: #5e1b9b; /* Darker purple color on hover */
+  }
+
+  /* Image */
+  .featured-img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    border: 3px solid #471869;
+  }
+  
